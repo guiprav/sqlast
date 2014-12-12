@@ -1,0 +1,22 @@
+{
+  "name": "sqlast",
+  "version": "0.0.0",
+  "description": "Parse SQL into ASTs and emit SQL from ASTs.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/n2liquid/sqlast"
+  },
+  "keywords": [
+    "sql",
+    "ast",
+    "parser",
+    "code",
+    "emitter"
+  ],
+  "author": "Guilherme Prá Vieira (super.driver.512@gmail.com)",
+  "license": "AGPL-3.0+",
+  "bugs": {
+    "url": "https://github.com/n2liquid/sqlast/issues"
+  },
+  "homepage": "https://github.com/n2liquid/sqlast"
+}
