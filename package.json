@@ -2,6 +2,9 @@
   "name": "sqlast",
   "version": "0.0.0",
   "description": "Parse SQL into ASTs and emit SQL from ASTs.",
+  "scripts": {
+	  "prepublish": "make"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/n2liquid/sqlast"
@@ -18,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/n2liquid/sqlast/issues"
   },
-  "homepage": "https://github.com/n2liquid/sqlast"
+  "homepage": "https://github.com/n2liquid/sqlast",
+  "dependencies": {
+    "pegjs": "^0.8.0"
+  }
 }
